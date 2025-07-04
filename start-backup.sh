@@ -5,4 +5,4 @@ docker run --rm --name ios-backup \
   -v $PWD/lockdown:/var/lib/lockdown \
   -v $PWD/backup:/backup \
   --env-file=$PWD/backup.env \
-  nilsw/ios-backup backup.sh
+  nilsw/ios-backup /app/backup.sh
